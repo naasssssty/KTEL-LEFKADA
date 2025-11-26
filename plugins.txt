@@ -1,0 +1,6 @@
+elementor
+advanced-custom-fields
+custom-post-type-ui
+contact-form-7
+wp-super-cache
+complianz-gdpr
