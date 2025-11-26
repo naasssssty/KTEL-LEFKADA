@@ -20,6 +20,8 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+define('WP_CACHE', false);
+define( 'WPCACHEHOME', '/home/konstantinos-papadogiannis/Studio/KTEL-LEFKADA/wp-content/plugins/wp-super-cache/' );
 define( 'DB_NAME', 'database_name_here' );
 
 /** Database username */
@@ -89,6 +91,8 @@ define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
+define( 'WP_HOME', 'http://127.0.0.1:8000' );
+define( 'WP_SITEURL', 'http://127.0.0.1:8000' );
 
 
 /* That's all, stop editing! Happy publishing. */

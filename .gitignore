@@ -1,0 +1,49 @@
+# WordPress core caches and logs
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backups/
+wp-content/wflogs/
+wp-content/debug.log
+
+# Media/uploads (large, environment-specific)
+wp-content/uploads/
+
+# Themes (installed via WP or WP-CLI). If you add a custom child theme, unignore its folder explicitly.
+wp-content/themes/
+
+# Local SQLite database (environment-specific)
+wp-content/database/
+*.sqlite
+*.sqlite3
+
+# Third-party plugins (install via WP-CLI on each env)
+wp-content/plugins/
+
+# Do NOT ignore MU-plugins & db.php (needed for SQLite integration)
+!wp-content/mu-plugins/
+!wp-content/db.php
+
+# Language packs
+wp-content/languages/
+
+# Cache config files
+wp-content/wp-cache-config.php
+wp-content/advanced-cache.php
+
+# Transients and cache files
+*.log
+*.tmp
+*.swp
+
+# System/IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# OS & misc
+*.bak
+*.old
+
+# Optional: ignore server config generated in dev
+.htaccess
