@@ -11,10 +11,15 @@ wp-content/uploads/
 # Themes (installed via WP or WP-CLI). If you add a custom child theme, unignore its folder explicitly.
 wp-content/themes/
 
-# Local SQLite database (environment-specific)
-wp-content/database/
+# Local SQLite DB: αγνόησε όλα στο database εκτός από .ht.sqlite
+wp-content/database/*
+!wp-content/database/.ht.sqlite
+
+# Αγνόησε γενικά sqlite αρχεία οπουδήποτε
 *.sqlite
 *.sqlite3
+# αλλά κράτα πάντα αυτό το συγκεκριμένο αρχείο
+!wp-content/database/.ht.sqlite
 
 # Third-party plugins (install via WP-CLI on each env)
 wp-content/plugins/
