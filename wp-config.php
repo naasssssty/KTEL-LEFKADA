@@ -21,7 +21,7 @@
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('WP_CACHE', false);
-define( 'WPCACHEHOME', '/home/konstantinos-papadogiannis/Studio/KTEL-LEFKADA/wp-content/plugins/wp-super-cache/' );
+define( 'WPCACHEHOME', '/wordpress/wp-content/plugins/wp-super-cache/' );
 define( 'DB_NAME', 'database_name_here' );
 
 /** Database username */
