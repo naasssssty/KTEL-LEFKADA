@@ -8,6 +8,7 @@ wp-content/debug.log
 # Media/uploads (large, environment-specific)
 wp-content/uploads/
 
+!wp-content/uploads/shared/
 # Themes (installed via WP or WP-CLI). If you add a custom child theme, unignore its folder explicitly.
 wp-content/themes/
 
